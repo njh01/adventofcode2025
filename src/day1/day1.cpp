@@ -3,7 +3,7 @@
 int password() {
     int starting_number = 50;
     int num_zeros = 0;
-    std::ifstream file("./AoC2025/src/day1/day1_input.txt");
+    std::ifstream file("day1_input.txt");
     std::string current_line, direction;
     int number;
     while (std::getline(file, current_line)) {
