@@ -1,5 +1,3 @@
-# GOAL: g++ -o test_mathprint_constants.cpp -I../utilities/
-
 # Variables
 CXX = g++
 CXX_FLAGS = -Wall -Wextra -g -I./src/ 

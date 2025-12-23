@@ -35,7 +35,6 @@ int password2() {
         direction = current_line[0];
         number    = std::stoi(current_line.substr(1,current_line.size()));
         int i = 0;
-        std::cout << starting_number << std::endl;
         while (i < number) {
             if (direction == "L") {
                 starting_number = (starting_number - 1) % 100;
