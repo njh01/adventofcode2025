@@ -2,7 +2,7 @@
 
 # Variables
 CXX = g++
-CXX_FLAGS = -Wall -Wextra -g -I./day1 
+CXX_FLAGS = -Wall -Wextra -g -I./src/ 
 TARGET = main
 SRCS = $(wildcard src/*.cpp)
 OBJS = $(SRCS:src/%.cpp=builds/%.o)

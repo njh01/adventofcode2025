@@ -1,9 +1,10 @@
 #include <fstream>
+#include <iostream>
 
 int password() {
     int starting_number = 50;
     int num_zeros = 0;
-    std::ifstream file("./AoC2025/src/day1/day1_input.txt");
+    std::ifstream file("./src/day1/day1_input.txt");
     std::string current_line, direction;
     int number;
     while (std::getline(file, current_line)) {
@@ -20,4 +21,9 @@ int password() {
         }
     }
     return num_zeros;
+}
+
+int main() {
+    int test = password();
+    std::cout << test << std::endl;
 }
