@@ -1,6 +1,6 @@
 # adventofcode2025
 
-Advent of code for 2025 in c++
+Advent of code for 2025 in c++ on a raspberrypi 3 model B+
 
 # Problems Completed
 
